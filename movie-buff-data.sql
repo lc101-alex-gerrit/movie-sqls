@@ -63,6 +63,7 @@ VALUES ("The Lord of the Rings: The Return of the King", 2003, 7);
 
 INSERT INTO movies (title, year_released, director_id)
 VALUES ("A Wrinke in Time", 2018, 8);
+UPDATE movies SET title = 'A Wrinkle in Time' WHERE movie_id = 12;
 
 INSERT INTO movies (title, year_released, director_id)
 VALUES ("Wonder Woman", 2017, 9);
